@@ -131,12 +131,14 @@ body {
 
 .project-link::before {
   content: '';
-  display: block;
-  background-image: url('../image/img/star.jpg');
-  background-size: contain;
-  background-position: center;
-  width: 15px;
-  height: 15px;
+  /* display: block; */
+  /* background-image: url('../image/img/star.jpg'); */
+  background-color: #fb6d3a;
+  border-radius: 50%;
+  /* background-size: contain;
+  background-position: center; */
+  width: 8px;
+  height: 8px;
   margin-right: 7px;
 }
 
@@ -323,9 +325,9 @@ body {
   order: -1;
 }
 
-.contact-link.location {
+/* .contact-link.location {
   margin-top: 25px;
-}
+} */
 
 .photo {
   width: 370px;
