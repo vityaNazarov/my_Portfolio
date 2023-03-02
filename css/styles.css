@@ -89,7 +89,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: #595959;
-  width: 400px;
+  /* width: 400px; */
 }
 
 /* project styles */
@@ -202,6 +202,10 @@ body {
   margin-bottom: 10px;
 }
 
+.work-list-title.achievements {
+  margin-top: 30px;
+}
+
 .work-list-item {
   font-weight: 400;
   font-size: 14px;
@@ -219,8 +223,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #000;
-  
+  background-color: #fb6d3a;
 }
 
 /* education styles */
@@ -318,6 +321,10 @@ body {
   height: 12px;
   fill: #ffffff;
   order: -1;
+}
+
+.contact-link.location {
+  margin-top: 25px;
 }
 
 .photo {
