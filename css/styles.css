@@ -74,6 +74,11 @@ body {
   color: #000000;
   margin-bottom: 20px;
 }
+
+.about-position__span {
+  color: #fb6d3a;
+}
+
 .about-name {
   font-style: normal;
   font-weight: 700;
@@ -156,12 +161,12 @@ body {
   padding-bottom: 50px;
 }
 
-.title.work-experience-title {
+/* .title.work-experience-title {
   margin-bottom: 20px;
-}
+} */
 
 .work-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .work-position {
@@ -180,6 +185,7 @@ body {
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .period {
